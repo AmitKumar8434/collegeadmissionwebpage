@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Academy Of Technology Admission</header>
+    <form>
+    <table>
+        <tr>
+          <td>Student Name</td>
+          <td><input id="sname" placeholder="Enter the Student name" required></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input id="phno" type="text" placeholder="Enter the Phone Number" required></td>
+          </tr>
+          <tr>
+            <td>Admission Id</td>
+            <td><input id="aid" type="text" placeholder="Enter the admission id" required></td>
+          </tr>
+          <tr>
+            <td>Date of Admission</td>
+            <td><input id="admissiondate" type="date" required></td>
+          </tr>
+          <tr>
+            <td>Department Name</td>
+            <td> 
+              <select  id="dept">
+                <option value="cse">CSE</option>
+                <option value="it">IT</option>
+                <option value="electrical">Electrical</option>
+                <option value="mechanical">Mechanical</option>
+              </select>
+          </tr>
+          <tr>
+            <td>Prefer College Hostel</td>
+            <td>
+                <label>
+                    <input  id="preferhostel" type="checkbox" value="yes">Yes
+                </label>
+                <label>
+                    <input id="preferhostel" type="checkbox"  value="no">No
+                </label>
+            </td>
+          </tr>
+          <tr>
+            <td>First Graduate</td>
+            <td><input id="firstgraduate" type="checkbox"> Click if you are first Graduate</td>
+          </tr>
+          <tr>
+          </tr>
+      </table>
+      </form>
+      <div id="subb">
+        <button id="sub" type="submit" >CONFORM ADMISSION</button>
+    </div>
+    <div id="result">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

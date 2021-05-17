@@ -1,0 +1,80 @@
+body{
+    background-image: url('pic.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    font-size: xx-large;
+    color: azure;
+    width: 50%;
+    background-color: rgb(12, 156, 89);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 6px;
+}
+form{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-spacing: 1px;
+    border-radius: 6px;
+}
+table{
+    background-color: aliceblue;
+    border: 2px solid;
+    width: 50%;
+    padding:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    padding: 5px;
+    border: 2px solid black;
+}
+#sub{
+    color: azure;
+    border: none;
+    font-size: x-large;
+    background-color:rgb(12, 156, 89);
+    width: 50%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#subb,#result{
+    font-size: x-large;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sub:hover{
+      background-color:rgb(22, 170, 121);
+}
+#sub:active{
+    font-size: 1.4rem;
+}
+#result{
+    font-size: 1 rem;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(0, 2, 2);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: aliceblue;
+}
